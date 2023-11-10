@@ -1,15 +1,20 @@
-#import "../brilliant-CV/template.typ": *
+#import "../template/template.typ": *
 
 #cvSection("Projects & Associations")
 
 #cvEntry(
-  title: [Volunteer Data Analyst],
-  society: [ABC Nonprofit Organization],
-  date: [2019 - Present],
-  location: [New York, NY],
+  title: [Model Compression via Explainable AI (XAI)],
+  society: [University of Stuttgart],
+  date: [2023],
+  location: [Stuttgart, Germany],
   description: list(
-    [Analyze donor and fundraising data to identify trends and opportunities for growth],
-    [Create data visualizations and dashboards to communicate insights to the board of directors],
-    [Collaborate with other volunteers to develop and implement data-driven strategies]
   )
 )
+
+#cvEntry(
+  title: [Bachelor Thesis],
+  society: [University of Cádiz],
+  date: [July 2020 - December 2020],
+  location: [Cádiz, Spain],
+  description: []
+  )
